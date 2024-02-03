@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/world.png" type="image/gif">
+</head>
+<body style="background-color: slategrey;">
+    <header>
+        <p style="text-align: right;"><a href="AlanGyanQuaye.html"><span style="background-color: yellow; color: blue; font-size: 20px;">Home</span></a></p>
+    </header>
+    <form action="imdex.php" method="post" style="text-align: center; margin: 150px; border:6px solid white">
+        <h1>Log In</h1>
+        <fieldset>
+        <label for="Username">Username:  <input style="background-color: pink;" type="name" required></label>
+        <br><br>
+    
+        <label for="Email">Email: <input style="background-color: pink;" type="email" placeholder="user@mail.com" required></label>
+        <br><br>
+    
+        <label fpr="password">Password: <input type="password" style="background-color: pink;" pattern="[a-z0-9]{8,}" required></label>
+        <br><br>
+        <input type="submit" value="login">
+        </fieldset>
+    
+        <p>
+            Don't have an account? <a href="signup.html">singup</a>
+        </p>
+       </form> 
+</body>
+</html>

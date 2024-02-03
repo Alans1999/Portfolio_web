@@ -1,0 +1,31 @@
+body{
+    background-color: slategrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: white;
+    color: rgb(46, 28, 59);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+nav > ul > {
+    color: brown;
+}
+h1{
+    color: rgb(36, 64, 72);
+}
+#alan{
+    border: 16px;
+}
+div > h1{
+    text-align: center;
+}
+input{
+    background-color: #;
+}
+label{
+    display: block;
+}
+#skills{
+    text-shadow: 4px 4px 1px hsl(78, 79%, 60%);
+}
